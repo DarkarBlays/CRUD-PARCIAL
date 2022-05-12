@@ -1,0 +1,15 @@
+body{
+    width: 715px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+form{
+    width: 715px;
+}
+img{
+    width: 30px;
+    height: 30px;
+}

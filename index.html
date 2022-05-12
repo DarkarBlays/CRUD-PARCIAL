@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD con HTML,CSS Y JavaScript</title>
+    <link rel="stylesheet" href="libs/css/bootstrap.css">
+    <link rel="stylesheet" href="libs/css/estilos.css">
+
+    <script src="libs/js/jquery.js"></script>
+    <script src="libs/js/crud.js"></script>
+</head>
+<body>
+    <h1>CATALOGO DE PRODUCTOS</h1>
+    <div class="container">
+        <div class="row">
+            <form>
+                <fieldset>
+                    <label >PRODUCTOS</label>
+                    <input type="text" class="form-control" id="item">
+                    <label >PRECIO</label>
+                    <input type="number" step="0.01" class="form-control" id="precio">
+                    <br>
+                    <button type="button" id="crear" class="btn btn-success">Crear Tabla</button>
+                    <button type="button" id="insertar" class="btn btn-success">Insertar Registro</button>
+                    <button type="button" id="modificar" class="btn btn-danger">Modificar Registro</button>
+                    <button type="button" id="listar" class="btn btn-success">Mostrar/Actualizar</button>
+                    <button type="button" id="borrarTodo" class="btn btn-danger">Eliminar Todo</button>
+                </fieldset>
+            </form>
+            <hr>
+            <h3>LISTA DE PRODUCTOS</h3>
+            <table class="tabla table-borderer table-hover" id="listaProductos" style="width: 715px;">
+
+            </table>
+        </div>
+    </div>
+</body>
+</html>
